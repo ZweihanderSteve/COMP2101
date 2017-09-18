@@ -1,0 +1,11 @@
+#!/bin/bash
+#This is a Welcome command
+
+export MYNAME="Jesus Christ"
+mytitle="Lord and Saviour"
+
+myhostname=$(hostname)
+today=$(date +%A)
+
+echo "Welcome to planet $myhostname, $mytitle $MYNAME"
+echo "Today is $today"
